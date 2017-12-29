@@ -70,6 +70,7 @@
 #include "sshbuf.h"
 #include "ssherr.h"
 #include "platform.h"
+#include "android-compat.h"
 
 /* remove newline at end of string */
 char *

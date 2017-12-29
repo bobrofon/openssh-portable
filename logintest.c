@@ -47,6 +47,8 @@
 
 #include "loginrec.h"
 
+#include "android-compat.h"
+
 extern char *__progname;
 
 #define PAUSE_BEFORE_LOGOUT 3

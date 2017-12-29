@@ -179,6 +179,7 @@
 #include "auth.h"
 #include "sshbuf.h"
 #include "ssherr.h"
+#include "android-compat.h"
 
 #ifdef HAVE_UTIL_H
 # include <util.h>

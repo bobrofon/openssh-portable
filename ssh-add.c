@@ -64,6 +64,7 @@
 #include "misc.h"
 #include "ssherr.h"
 #include "digest.h"
+#include "android-compat.h"
 
 /* argv0 */
 extern char *__progname;

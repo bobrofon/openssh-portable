@@ -27,6 +27,7 @@
 #include "sftp.h"
 #include "misc.h"
 #include "xmalloc.h"
+#include "android-compat.h"
 
 void
 cleanup_exit(int i)

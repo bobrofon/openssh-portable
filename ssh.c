@@ -108,6 +108,7 @@
 #include "ssherr.h"
 #include "myproposal.h"
 #include "utf8.h"
+#include "android-compat.h"
 
 #ifdef ENABLE_PKCS11
 #include "ssh-pkcs11.h"

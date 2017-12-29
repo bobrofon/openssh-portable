@@ -72,6 +72,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include "android-compat.h"
 
 #if !defined(HAVE_GLOB) || !defined(GLOB_HAS_ALTDIRFUNC) || \
     !defined(GLOB_HAS_GL_MATCHC) || !defined(GLOB_HAS_GL_STATV) || \
