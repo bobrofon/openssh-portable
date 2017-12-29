@@ -178,6 +178,7 @@
 #include "canohost.h"
 #include "auth.h"
 #include "buffer.h"
+#include "android-compat.h"
 
 #ifdef HAVE_UTIL_H
 # include <util.h>

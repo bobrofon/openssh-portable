@@ -57,6 +57,7 @@
 #include "uidswap.h"
 #include "sshkey.h"
 #include "ssherr.h"
+#include "android-compat.h"
 
 struct ssh *active_state = NULL; /* XXX needed for linking */
 

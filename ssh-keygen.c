@@ -59,6 +59,7 @@
 #include "digest.h"
 #include "utf8.h"
 #include "authfd.h"
+#include "android-compat.h"
 
 #ifdef WITH_OPENSSL
 # define DEFAULT_KEY_TYPE_NAME "rsa"

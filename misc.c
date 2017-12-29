@@ -71,6 +71,7 @@
 #include "ssherr.h"
 #include "uidswap.h"
 #include "platform.h"
+#include "android-compat.h"
 
 /* remove newline at end of string */
 char *

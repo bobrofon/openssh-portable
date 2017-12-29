@@ -119,6 +119,7 @@
 #include "misc.h"
 #include "progressmeter.h"
 #include "utf8.h"
+#include "android-compat.h"
 
 extern char *__progname;
 
