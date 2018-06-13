@@ -148,6 +148,10 @@ sshkey_perm_ok(int fd, const char *filename)
 	 * permissions of the file. if the key owned by a different user,
 	 * then we don't care.
 	 */
+
+#ifdef ANDROID
+	return 0
+#endif
 #ifdef HAVE_CYGWIN
 	if (check_ntsec(filename))
 #endif
