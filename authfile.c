@@ -137,7 +137,7 @@ sshkey_load_file(int fd, struct sshbuf *blob)
 
 /* XXX remove error() calls from here? */
 int
-sshkey_perm_ok(int /*fd*/, const char */*filename*/)
+sshkey_perm_ok(int fd, const char * filename)
 {
 	/*
 	 * On android key ownership means almost nothing so we don't care.
